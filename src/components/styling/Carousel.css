@@ -1,0 +1,23 @@
+.container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.container i {
+   font-size: 3.4rem;
+}
+
+.text {
+   width: 40%;
+}
+
+.text h1 {
+   font-size: 2.6rem;
+}

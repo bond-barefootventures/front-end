@@ -86,10 +86,6 @@ img {
    color: var(--default-yellow);
 }
 
-p {
-   font-family: "Roboto";
-}
-
 p:hover {
    filter: brightness(130%);
    transition: all ease-in-out 300ms;
