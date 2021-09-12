@@ -3,14 +3,20 @@
 }
 
 .container.active {
+   display: block;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: calc(100vh - 80px);
+}
+
+.content {
+   height: 20vh;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
+   padding: 40vh 0 40vh 0;
 }
 
 .container i {
@@ -28,6 +34,18 @@
    padding-bottom: 0.4em;
 }
 
-/* .indexes {
-   
-} */
+.circles {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.circles i {
+   font-size: 0.7rem;
+   padding: 0 0.5rem 0 0.5rem;
+}
+
+.circles .lg {
+   font-size: 1rem;
+}

@@ -20,15 +20,21 @@ function Carousel() {
             className={index === currIndex ? "container active" : "container"} 
             style={{backgroundImage: `url(${img})`}}
          >
-            <i class="bi bi-chevron-left" onClick={nextSlide}></i>
-            <div className="text">
-               <h1>{title}</h1>
-               <p>{description}</p>
+            <div className="content">
+               <i class="bi bi-chevron-left" onClick={nextSlide}></i>
+               <div className="text">
+                  <h1>{title}</h1>
+                  <p>{description}</p>
+               </div>
+               <i class="bi bi-chevron-right" onClick={prevSlide}></i>
             </div>
-            <i class="bi bi-chevron-right" onClick={prevSlide}></i>
             <div className="circles">
-               <i class={currIndex === 0 ? "fas fa-circle" : "bi bi-circle"} />
-               <i class={currIndex === 1 ? "fas fa-circle" : "bi bi-circle"} />
+               <i 
+                  class={currIndex === 0 ? "lg bi bi-circle-fill" : "bi bi-circle"} 
+               />
+               <i 
+                  class={currIndex === 1 ? "lg bi bi-circle-fill" : "bi bi-circle"} 
+               />
             </div>
          </div>
       ))}

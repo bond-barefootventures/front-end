@@ -5,7 +5,7 @@
    grid-template-columns: 1fr 720px 120px 160px 1fr;
    grid-template-areas: "left-blank all-pages middle-blank icons right-blank";
    color: var(--default-blue);
-   position: fixed;
+   position: sticky;
    top: 0;
    width: 100%;
    z-index: 999;
