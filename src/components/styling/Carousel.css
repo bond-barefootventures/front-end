@@ -1,9 +1,12 @@
 .container {
+   display: none;
+}
+
+.container.active {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   color: white;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -12,12 +15,19 @@
 
 .container i {
    font-size: 3.4rem;
+   color: var(--default-blue);
 }
 
 .text {
    width: 40%;
+   color: black;
 }
 
 .text h1 {
    font-size: 2.6rem;
+   padding-bottom: 0.4em;
 }
+
+/* .indexes {
+   
+} */
