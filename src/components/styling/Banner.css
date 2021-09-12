@@ -1,0 +1,53 @@
+.banner {
+   padding: 0 18vw 0 18vw;
+   color: white;
+   height: 50vh;
+   background-color: var(--default-blue);
+}
+
+.CTA {
+   display: flex;
+   flex-direction: column;
+   height: 120px;
+   justify-content: space-around;
+}
+
+.CTA h1 {
+   font-size: 2.1rem;
+}
+
+.CTA h1, .learn-more {
+   padding-left: 2rem;
+}
+
+.flex-box-banner {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.banner img {
+   height: 120px;
+}
+
+.learn-more {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-decoration: none;
+   transition: ease 500ms;
+}
+
+.learn-more:hover {
+   margin-left: 1rem;
+   transition: ease 500ms;
+}
+
+.learn-more i {
+   padding-left: 1rem;
+}
+
+.fa-quote-left {
+   padding: 3rem 0 2rem 0;
+}

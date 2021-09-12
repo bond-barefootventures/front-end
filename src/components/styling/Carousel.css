@@ -44,6 +44,7 @@
 .circles i {
    font-size: 0.7rem;
    padding: 0 0.5rem 0 0.5rem;
+   cursor: pointer;
 }
 
 .circles .lg {

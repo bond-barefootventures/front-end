@@ -31,9 +31,15 @@ function Carousel() {
             <div className="circles">
                <i 
                   class={currIndex === 0 ? "lg bi bi-circle-fill" : "bi bi-circle"} 
+                  onClick={() => {
+                     if (currIndex !== 0) setcurrIndex(0)
+                  }}
                />
                <i 
                   class={currIndex === 1 ? "lg bi bi-circle-fill" : "bi bi-circle"} 
+                  onClick={() => {
+                     if (currIndex !== 1) setcurrIndex(1)
+                  }}
                />
             </div>
          </div>

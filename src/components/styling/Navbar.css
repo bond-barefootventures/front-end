@@ -2,7 +2,7 @@
    height: 80px;
    background-color: white;
    display: grid;
-   grid-template-columns: 1fr 720px 120px 160px 1fr;
+   grid-template-columns: 1fr 710px 110px 160px 1fr;
    grid-template-areas: "left-blank all-pages middle-blank icons right-blank";
    color: var(--default-blue);
    position: sticky;
