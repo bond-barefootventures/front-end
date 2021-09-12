@@ -1,0 +1,6 @@
+export {default as About} from "./About"
+export {default as JobSearch} from "./JobSearch"
+export {default as Blog} from "./Blog"
+export {default as Business} from "./Business"
+export {default as JoinUs} from "./JoinUs"
+export {default as Home} from "./Home"

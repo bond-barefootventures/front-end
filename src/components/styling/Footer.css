@@ -1,0 +1,85 @@
+footer {
+   background-color: var(--default-blue);
+   height: 370px;
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   width: 100%;
+   color: white;
+   padding: 1.7rem 17% 1.5rem 17%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.trade-mark {
+   font-family: "Roboto";
+   font-size: 0.65rem;
+   margin-top: 1.5em;
+}
+
+.top-footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#img-footer {
+   height: 4rem;
+   margin-top: 5.4rem;
+}
+
+.column h4 {
+   margin-bottom: 3.5rem;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+.link, .info p {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-decoration: none;
+   color: white;
+   font-size: 0.78rem;
+   font-family: "Roboto";
+   padding: 0.7em 0 0.7em 0;
+}
+
+.link:hover {
+   filter: brightness(88%);
+   transition: all ease-in-out 300ms;
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.row i {
+   padding: 0 1rem 0 1rem;
+}
+
+.info {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.info i {
+   margin-right: 0.6em;
+}
+
+a {
+   color: white;
+}
+
+hr {
+   border: none;
+   height: 0.05em;
+   background-color: white;
+}

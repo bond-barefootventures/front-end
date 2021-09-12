@@ -1,0 +1,115 @@
+.navbar {
+   height: 80px;
+   background-color: white;
+   display: grid;
+   grid-template-columns: 1fr 720px 120px 160px 1fr;
+   grid-template-areas: "left-blank all-pages middle-blank icons right-blank";
+   color: var(--default-blue);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 999;
+}
+
+.navbar.active {
+   background-color: var(--default-blue);
+   color: white;
+}
+
+.navbar.active .page {
+   color: white;
+}
+
+.navbar.active .page::before {
+   background-color: white;
+}
+
+.navbar.active p:hover {
+   filter: brightness(87%)
+}
+
+img {
+   height: 2em;
+}
+
+.all-pages {
+   grid-area: all-pages;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-weight: 700;
+}
+
+.page {
+   text-decoration: none;
+   color: var(--default-blue);
+   position: relative;
+}
+
+.sign-in {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.fa-user-circle {
+   margin-right: 0.4em;
+}
+
+.icons {
+   grid-area: icons;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 0.9rem;
+}
+
+.page::before {
+   content: "";
+   display: block;
+   height: 4.5px;
+   width: 0%;
+   background-color: var(--default-yellow);
+   position: absolute;
+   top: -31px;
+   transition: all ease-in-out 300ms;
+}
+
+.page:hover::before {
+   width: 100%;
+}
+
+.page:hover {
+   color: var(--default-yellow);
+}
+
+p {
+   font-family: "Roboto";
+}
+
+p:hover {
+   filter: brightness(130%);
+   transition: all ease-in-out 300ms;
+}
+
+.page.current::before {
+   content: "";
+   display: block;
+   height: 4.5px;
+   width: 100%;
+   background-color: orange;
+   position: absolute;
+   top: -31px;
+   transition: all ease-in-out 250ms;
+}
+
+.page.current {
+   color: orange;
+}
+
+.page.current.active, .page.current.active::before {
+   color: white;
+}
