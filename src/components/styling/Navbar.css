@@ -28,7 +28,7 @@
    filter: brightness(87%)
 }
 
-img {
+nav img {
    height: 2em;
 }
 
@@ -86,7 +86,7 @@ img {
    color: var(--default-yellow);
 }
 
-p:hover {
+.sign-in p:hover {
    filter: brightness(130%);
    transition: all ease-in-out 300ms;
 }
