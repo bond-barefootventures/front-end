@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "./styling/JoinUs.css"
+import "./css/JoinUs.css"
 
 
 export default function JoinUs() {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "./styling/Blog.css"
+import "./css/Blog.css"
 
 
 export default function Blog() {

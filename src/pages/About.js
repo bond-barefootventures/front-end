@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 
-import "./styling/About.css"
+import "./css/About.css"
 
 
 export default function About() {

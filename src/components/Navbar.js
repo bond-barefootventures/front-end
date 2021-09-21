@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import {Link, useLocation} from "react-router-dom"
 
-import "./styling/Navbar.css"
+import "./css/Navbar.css"
 import blueLogo from "../img/blue-logo.png"
 import whiteLogo from "../img/white-logo.png"
 

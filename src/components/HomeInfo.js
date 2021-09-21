@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./styling/HomeInfo.css"
+import "./css/HomeInfo.css"
 import {BusinessCard, BlogCard} from "./"
 import homeEvent from "../img/home-event.png"
 

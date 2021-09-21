@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import "./styling/Footer.css"
+import "./css/Footer.css"
 import whiteLogo from "../img/white-logo.png"
 
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "./styling/JobSearch.css"
+import "./css/JobSearch.css"
 
 
 export default function JobSearch() {

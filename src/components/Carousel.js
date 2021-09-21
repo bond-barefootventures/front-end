@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import "./styling/Carousel.css"
+import "./css/Carousel.css"
 
 
 function Carousel() {
@@ -23,7 +23,7 @@ function Carousel() {
             <div className="content">
                <i class="bi bi-chevron-left" onClick={nextSlide}></i>
                <div className="text">
-                  <h1>{title}</h1>
+                  <h1 className="big-text">{title}</h1>
                   <p>{description}</p>
                </div>
                <i class="bi bi-chevron-right" onClick={prevSlide}></i>

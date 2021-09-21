@@ -87,8 +87,8 @@ nav img {
 }
 
 .sign-in p:hover {
-   filter: brightness(130%);
-   transition: all ease-in-out 300ms;
+   opacity: 0.8;
+   transition: all ease 300ms;
 }
 
 .page.current::before {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "./styling/Business.css"
+import "./css/Business.css"
 
 
 export default function Business() {
