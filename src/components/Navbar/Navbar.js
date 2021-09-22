@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import {Link, useLocation} from "react-router-dom"
 
-import "./css/Navbar.css"
-import blueLogo from "../img/blue-logo.png"
-import whiteLogo from "../img/white-logo.png"
+import "./Navbar.css"
+import blueLogo from "../../img/blue-logo.png"
+import whiteLogo from "../../img/white-logo.png"
 
 
 export default function Navbar() {

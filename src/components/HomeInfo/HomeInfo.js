@@ -1,8 +1,9 @@
 import React from "react"
 
-import "./css/HomeInfo.css"
-import {BusinessCard, BlogCard} from "./"
-import homeEvent from "../img/home-event.png"
+import "./HomeInfo.css"
+import BusinessCard from "../BusinessCard/BusinessCard"
+import BlogCard from "../BlogCard/BlogCard"
+import homeEvent from "../../img/home-event.png"
 
 export default function HomeInfo() {
    return (

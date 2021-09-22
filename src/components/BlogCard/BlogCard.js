@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./css/BlogCard.css"
+import "./BlogCard.css"
 
 export default function BlogCard() {
    return (

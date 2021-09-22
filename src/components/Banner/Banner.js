@@ -1,8 +1,8 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import "./css/Banner.css"
-import whiteLogo from "../img/white-logo.png"
+import "./Banner.css"
+import whiteLogo from "../../img/white-logo.png"
 
 
 export default function Banner() {

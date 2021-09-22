@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 
-import "./css/BusinessCard.css"
+import "./BusinessCard.css"
 
 export default function BusinessCard(props) {
    return (
