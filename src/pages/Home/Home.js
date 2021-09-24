@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-import { Banner, Carousel, HomeInfo } from "../components";
-import "./css/Home.css";
+import { Banner, Carousel, HomeInfo } from "../../components";
+import "./Home.css";
 
 export default function Home() {
   return (
