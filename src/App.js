@@ -1,12 +1,13 @@
 import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { Navbar, Footer } from "./components"
+import { Navbar, Footer, SocialIcons } from "./components"
 import { Home, About, Blog, Business, JobSearch, JoinUs } from "./pages"
 
 export default function App() {
    return (
       <Router>
          <Navbar />
+         <SocialIcons />
          <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />

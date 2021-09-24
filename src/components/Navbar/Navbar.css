@@ -25,7 +25,7 @@
 }
 
 .navbar.active p:hover {
-   filter: brightness(87%)
+   filter: brightness(87%);
 }
 
 nav img {
@@ -106,6 +106,7 @@ nav img {
    color: orange;
 }
 
-.page.current.active, .page.current.active::before {
+.page.current.active,
+.page.current.active::before {
    color: white;
 }

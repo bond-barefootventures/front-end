@@ -1,20 +1,23 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 import "./Footer.css"
-import whiteLogo from "../../img/white-logo.png"
-
 
 export default function Footer() {
    return (
       <footer>
          <div className="top-footer">
-            <img id="img-footer" src={whiteLogo} alt="BOND logo" />
+            <img
+               src="https://res.cloudinary.com/barefootventures/image/upload/v1632469422/bond-website/bond-logo/white-logo_xhxbco.png"
+               alt="BOND logo"
+            />
 
             <div className="column">
                <h4>About us</h4>
                <div className="column-of-links">
-                  <Link to="/join-us" className="link">Join us</Link>
+                  <Link to="/join-us" className="link">
+                     Join us
+                  </Link>
                   <Link className="link">FAQ</Link>
                   <Link className="link">Account</Link>
                </div>
@@ -23,9 +26,15 @@ export default function Footer() {
             <div className="column">
                <h4>Services</h4>
                <div className="column-of-links">
-                  <Link to="/business" className="link">For businesses</Link>
-                  <Link to="/business" className="link">For universities</Link>
-                  <Link to="/blog" className="link">Blog</Link>
+                  <Link to="/business" className="link">
+                     For businesses
+                  </Link>
+                  <Link to="/business" className="link">
+                     For universities
+                  </Link>
+                  <Link to="/blog" className="link">
+                     Blog
+                  </Link>
                </div>
             </div>
 
@@ -38,7 +47,9 @@ export default function Footer() {
                   </div>
                   <div className="info">
                      <i class="bi bi-envelope"></i>
-                     <p>bond@barefootventures.org</p>
+                     <a href="mailto:bond@barefootventures.org">
+                        bond@barefootventures.org
+                     </a>
                   </div>
                   <div className="info">
                      <i class="bi bi-telephone"></i>
@@ -52,10 +63,13 @@ export default function Footer() {
             </div>
 
             <div className="row">
-               <a href="https://www.facebook.com/BOND.barefoot">
+               <a target="_blank" href="https://www.facebook.com/BOND.barefoot">
                   <i class="fa-lg fab fa-facebook-f" />
                </a>
-               <a href="https://www.linkedin.com/company/barefoot-ventures/">
+               <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/barefoot-ventures/"
+               >
                   <i class="fa-lg fab fa-linkedin-in" />
                </a>
             </div>
