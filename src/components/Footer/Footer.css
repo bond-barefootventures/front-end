@@ -23,7 +23,7 @@ footer {
    justify-content: space-between;
 }
 
-#img-footer {
+.top-footer img {
    height: 4rem;
    margin-top: 5.4rem;
 }
@@ -37,7 +37,9 @@ footer {
    flex-direction: column;
 }
 
-.link, .info p {
+.link,
+.info p,
+.info a {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -56,10 +58,12 @@ footer {
 .row {
    display: flex;
    flex-direction: row;
+   justify-content: flex-start;
+   height: fit-content;
 }
 
 .row i {
-   padding: 0 1rem 0 1rem;
+   padding: 0 1rem;
 }
 
 .info {

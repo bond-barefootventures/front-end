@@ -1,9 +1,7 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 import "./Banner.css"
-import whiteLogo from "../../img/white-logo.png"
-
 
 export default function Banner() {
    return (
@@ -17,7 +15,10 @@ export default function Banner() {
                   <i class="fas fa-chevron-right"></i>
                </Link>
             </div>
-            <img src={whiteLogo} alt="bond-logo" />
+            <img
+               src="https://res.cloudinary.com/barefootventures/image/upload/v1632469422/bond-website/bond-logo/white-logo_xhxbco.png"
+               alt="bond-logo"
+            />
          </div>
       </section>
    )
