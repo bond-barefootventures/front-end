@@ -3,7 +3,29 @@ import React from "react"
 import "./HomeInfo.css"
 import BusinessCard from "../BusinessCard/BusinessCard"
 import BlogCard from "../BlogCard/BlogCard"
-import homeEvent from "../../img/home-event.png"
+// import homeEvent from "../../img/home-event.png"
+
+const data = [
+   {
+      img: 'https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp',
+      time: '2 hours ago',
+      title: 'Revealing the important and ways to improve ...',
+      content: ' Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...',
+   },
+   {
+      img: 'https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp',
+      time: '2 hours ago',
+      title: 'Revealing the important and ways to improve ...',
+      content: ' Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...',
+   },
+   {
+      img: 'https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp',
+      time: '2 hours ago',
+      title: 'Revealing the important and ways to improve ...',
+      content: ' Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...',
+   },
+
+]
 
 export default function HomeInfo() {
    return (
@@ -52,9 +74,19 @@ export default function HomeInfo() {
          <section className="blog">
             <h1>Blog</h1>
             <div className="blog-flex">
-               <BlogCard />
-               <BlogCard />
-               <BlogCard />
+               {
+                  data.map((item, index) => (
+                     <div className="each-blog">
+                        <BlogCard key={index}
+                           img={item.img}
+                           time={item.time}
+                           title={item.title}
+                           content={item.content}
+                        />
+                     </div>
+
+                  ))
+               }
             </div>
          </section>
 

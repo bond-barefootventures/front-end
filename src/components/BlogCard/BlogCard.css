@@ -1,0 +1,52 @@
+.blog-card {
+    margin-right:50px;
+    width:300px;
+    border: 1px solid rgb(230, 220, 220);
+}
+.img-container img { 
+    width: 100%;
+}
+
+.content-container{
+    padding:28px 24px;
+}
+
+.content-container span {
+    font-size:12px;
+    margin-top:10px;
+}
+
+.content-container h1 {
+    line-height:30px;
+    margin-top:20px;    
+    font-size:23px;
+}
+
+.content-container p {
+    margin-top:10px;    
+    line-height:1.5;
+    font-size:15px;
+    opacity:0.8;
+
+    
+}
+
+.svg-container{
+    
+    padding:0 24px;
+}
+.border {
+    border-top: 1px solid rgb(185, 180, 180);
+    display: flex;
+    justify-content:space-between;
+    height:40px;
+    align-items:center;
+}
+
+.left-svg { 
+    display:flex;
+}
+
+.left-svg span { 
+    margin-right:5px;
+}

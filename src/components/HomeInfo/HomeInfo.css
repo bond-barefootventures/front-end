@@ -37,3 +37,13 @@
    width: 200px;
    height: auto;
 }
+
+
+.blog-flex { 
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+}
+
+.each-blog { 
+   flex: 1;}
