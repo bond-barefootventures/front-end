@@ -1,14 +1,14 @@
 import React from "react"
 
 import "./HomeInfo.css"
-import BusinessCard from "../BusinessCard/BusinessCard"
-import BlogCard from "../BlogCard/BlogCard"
+import { BusinessCard, BlogCard } from "../"
 
 export default function HomeInfo() {
    return (
       <div className="home-info">
          <section className="what-we-do">
             <h1>What We Do</h1>
+            <br />
             <div className="cards">
                <BusinessCard
                   icon="fas fa-user-graduate"
@@ -42,6 +42,7 @@ export default function HomeInfo() {
 
          <section className="events">
             <h1>Events</h1>
+            <br />
             <img
                src="https://res.cloudinary.com/barefootventures/image/upload/v1632469453/bond-website/home-event_gjg4zb.png"
                alt="BOND Online Career Fair 2021"
@@ -50,16 +51,22 @@ export default function HomeInfo() {
 
          <section className="blog">
             <h1>Blog</h1>
+            <br />
             <div className="blog-flex">
-               <BlogCard />
-               <BlogCard />
-               <BlogCard />
+               {blogData.map((item, index) => (
+                  <BlogCard
+                     key={index}
+                     img={item.img}
+                     time={item.time}
+                     title={item.title}
+                     content={item.content}
+                  />
+               ))}
             </div>
          </section>
 
          <section className="network">
             <h1>Our Network</h1>
-            <br />
             <br />
             <div className="network-img">
                <img
@@ -79,3 +86,27 @@ export default function HomeInfo() {
       </div>
    )
 }
+
+const blogData = [
+   {
+      img: "https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp",
+      time: "2 hours ago",
+      title: "Revealing the important and ways to improve ...",
+      content:
+         " Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...",
+   },
+   {
+      img: "https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp",
+      time: "2 hours ago",
+      title: "Revealing the important and ways to improve ...",
+      content:
+         " Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...",
+   },
+   {
+      img: "https://static.wixstatic.com/media/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.jpg/v1/fill/w_365,h_274,fp_0.50_0.50,q_90/16479e_f43189fb1ff742b99fe58c4c21243774~mv2.webp",
+      time: "2 hours ago",
+      title: "Revealing the important and ways to improve ...",
+      content:
+         " Have you ever been “sink” in a dense pile of work with no way out? Have you ever stayed up all night to meet a...",
+   },
+]
