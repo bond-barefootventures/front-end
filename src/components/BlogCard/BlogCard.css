@@ -11,6 +11,15 @@
    padding: 28px 24px;
 }
 
+.post-content,
+i {
+   cursor: pointer;
+}
+
+.post-content:hover {
+   color: var(--default-blue);
+}
+
 .content-container span {
    font-size: 12px;
    margin-top: 10px;
@@ -38,8 +47,18 @@
 
 .left-svg {
    display: flex;
+   align-items: flex-end;
 }
 
 .left-svg span {
    margin-right: 5px;
+}
+
+.bi-suit-heart-fill,
+.bi-suit-heart {
+   color: rgb(221, 0, 0);
+}
+
+.bi-chat-left-text {
+   margin-right: 0.5rem;
 }

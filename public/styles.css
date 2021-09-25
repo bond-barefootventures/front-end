@@ -25,7 +25,6 @@ p {
 
 .fade {
    opacity: 0.8;
-   /* transition: all ease 300ms; */
 }
 
 .big-text {
@@ -38,6 +37,10 @@ p {
 
 .small-txt {
    font-size: 0.9rem;
+}
+
+.tiny-txt {
+   font-size: 0.75rem;
 }
 
 br {
