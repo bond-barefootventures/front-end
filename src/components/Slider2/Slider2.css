@@ -1,0 +1,29 @@
+.slider2 {
+  position: relative;
+  height: 400px;
+}
+
+.slider2_content {
+  text-align: center;
+}
+
+.slider2 i {
+  font-size: 3.4rem;
+  color: var(--default-yellow);
+}
+
+.slider2_title {
+  font-size: 2rem;
+}
+
+.slider2_text {
+  margin-top: 2rem;
+}
+
+.author_info {
+  margin-top: 1rem;
+}
+
+.author {
+  font-weight: 700;
+}

@@ -1,14 +1,16 @@
-import React from "react"
+import React from "react";
 
-import { Banner, Carousel, HomeInfo } from "../../components"
-import "./Home.css"
+import { Banner, Slider, HomeInfo, Slider2, Subscribe } from "../../components";
+import "./Home.css";
 
 export default function Home() {
-   return (
-      <div className="home">
-         <Carousel />
-         <Banner />
-         <HomeInfo />
-      </div>
-   )
+  return (
+    <div className="home">
+      <Slider />
+      <Banner />
+      <HomeInfo />
+      <Slider2 />
+      <Subscribe />
+    </div>
+  );
 }
