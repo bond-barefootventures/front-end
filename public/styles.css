@@ -49,8 +49,7 @@ br {
 }
 
 .container {
-	width: 68vw;
-	margin: 0 auto;
+	padding: 0 18vw;
 }
 
 @keyframes fade-in {
