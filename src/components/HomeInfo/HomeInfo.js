@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./HomeInfo.css"
-import { BusinessCard, BlogCard } from "../"
+import { BusinessCard, BlogCard } from "./"
 
 export default function HomeInfo() {
 	return (
