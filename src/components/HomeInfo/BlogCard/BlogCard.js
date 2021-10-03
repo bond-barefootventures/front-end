@@ -14,8 +14,8 @@ export default function BlogCard(props) {
 			<div className="content-container">
 				<p className="tiny-txt fade">{props.time}</p>
 				<div className="post-content">
-					<h2>{props.title}</h2>
-					<p className="small-txt fade">{props.content}</p>
+					<h3>{props.title}</h3>
+					<p className="text-sm">{props.content}</p>
 				</div>
 			</div>
 			<div className="svg-container">

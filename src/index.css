@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply font-extrabold text-5xl;
+	}
+
+	h2 {
+		@apply font-bold text-3xl;
+	}
+
+	h3 {
+		@apply font-bold text-xl;
+	}
+
+	h4 {
+		@apply font-bold text-lg;
+	}
+
+	p {
+		@apply font-roboto;
+	}
+
+	* {
+		@apply m-0 box-border;
+	}
+
+	br {
+		@apply leading-10;
+	}
+}
+
+@layer components {
+	.container {
+		@apply 2xl:w-2/3 xl:w-2/3 lg:w-4/5 md:w-3/4 w-11/12 m-auto;
+	}
+}

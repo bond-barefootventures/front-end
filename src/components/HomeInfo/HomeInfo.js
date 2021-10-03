@@ -7,7 +7,7 @@ export default function HomeInfo() {
 	return (
 		<div className="home-info">
 			<section className="what-we-do">
-				<h1>What We Do</h1>
+				<h2>What We Do</h2>
 				<br />
 				<div className="cards">
 					<BusinessCard
@@ -41,7 +41,7 @@ export default function HomeInfo() {
 			</section>
 
 			<section className="events">
-				<h1>Events</h1>
+				<h2>Events</h2>
 				<br />
 				<img
 					src="https://res.cloudinary.com/barefootventures/image/upload/v1632469453/bond-website/home-event_gjg4zb.png"
@@ -50,7 +50,7 @@ export default function HomeInfo() {
 			</section>
 
 			<section className="blog">
-				<h1>Blog</h1>
+				<h2>Blog</h2>
 				<br />
 				<div className="blog-flex">
 					{blogData.map((item, index) => (
@@ -66,7 +66,7 @@ export default function HomeInfo() {
 			</section>
 
 			<section className="network">
-				<h1>Our Network</h1>
+				<h2>Our Network</h2>
 				<br />
 				<div className="network-img">
 					<img

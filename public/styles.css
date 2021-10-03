@@ -20,15 +20,15 @@ body {
 	overflow-x: hidden;
 }
 
-p {
+/* p {
 	font-family: "Roboto", sans-serif;
-}
+} */
 
 .fade {
 	opacity: 0.8;
 }
 
-.big-text {
+/* .big-text {
 	font-size: 2.6rem;
 }
 
@@ -42,15 +42,15 @@ p {
 
 .tiny-txt {
 	font-size: 0.75rem;
-}
+} */
 
 br {
 	line-height: 2.5;
 }
 
-.container {
+/* .container {
 	padding: 0 18vw;
-}
+} */
 
 @keyframes fade-in {
 	from {

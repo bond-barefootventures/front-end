@@ -5,7 +5,7 @@ function Subscribe() {
 	return (
 		<div className="subscribe container">
 			<div className="subscribe_content">
-				<h1>Subscribe to our newsletter</h1>
+				<h2>Subscribe to our newsletter</h2>
 				<div className="subscribe_email_center">
 					<label htmlFor="subscribe_email" />
 					<input
