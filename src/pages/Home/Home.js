@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react'
 
 import {
-  Banner,
-  Slider1,
-  HomeInfo,
-  Slider2,
-  Subscribe,
-} from "../../components";
-import "./Home.css";
+	Banner,
+	IntroSlider,
+	HomeInfo,
+	TestimonialsSlider,
+	Subscribe,
+} from '../../components'
+import './Home.css'
 
 export default function Home() {
-  return (
-    <div className="home">
-      <Slider1 />
-      <Banner />
-      <HomeInfo />
-      <Slider2 />
-      <Subscribe />
-    </div>
-  );
+	return (
+		<div className="home">
+			<IntroSlider />
+			<Banner />
+			<HomeInfo />
+			<TestimonialsSlider />
+			<Subscribe />
+		</div>
+	)
 }
