@@ -1,12 +1,18 @@
 import React from "react";
 
-import { Banner, Slider, HomeInfo, Slider2, Subscribe } from "../../components";
+import {
+  Banner,
+  Slider1,
+  HomeInfo,
+  Slider2,
+  Subscribe,
+} from "../../components";
 import "./Home.css";
 
 export default function Home() {
   return (
     <div className="home">
-      <Slider />
+      <Slider1 />
       <Banner />
       <HomeInfo />
       <Slider2 />

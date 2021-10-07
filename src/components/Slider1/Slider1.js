@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Slider.css";
+import "./Slider1.css";
 
 function Slider() {
   const [currIndex, setcurrIndex] = useState(0);
