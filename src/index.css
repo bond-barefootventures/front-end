@@ -41,6 +41,6 @@
 	}
 
 	.btn {
-		@apply bg-brand-blue w-max px-8 py-2 text-white font-bold hover:bg-white hover:text-brand-blue cursor-pointer shadow-xl rounded-md transition-all;
+		@apply bg-brand-blue w-full px-8 py-2 text-white font-bold hover:bg-white hover:text-brand-blue cursor-pointer shadow-xl rounded-md transition-all md:w-max;
 	}
 }

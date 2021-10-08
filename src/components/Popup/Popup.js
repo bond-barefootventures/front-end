@@ -20,7 +20,7 @@ const index = () => {
 							src="https://static.wixstatic.com/media/9f3353_6e195849eb0143c3ba0ced5345f91ce4~mv2.gif"
 							alt="ani-gif"
 						/>
-						<div className="flex flex-col w-auto">
+						<div className="flex flex-col w-auto pr-12">
 							<h3 className="uppercase">Subscribe to our newsletter</h3>
 							<p className="text-sm my-4">Never miss any job updates</p>
 							<input
