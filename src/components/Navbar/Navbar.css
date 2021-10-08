@@ -3,12 +3,12 @@
 	background-color: white;
 	display: grid;
 	grid-template-columns: 1fr 710px 110px 160px 1fr;
-	grid-template-areas: "left-blank all-pages middle-blank icons right-blank";
+	grid-template-areas: 'left-blank all-pages middle-blank icons right-blank';
 	color: var(--default-blue);
 	position: sticky;
 	top: 0;
 	width: 100%;
-	z-index: 999;
+	z-index: 1;
 }
 
 .navbar.active {
@@ -68,7 +68,7 @@ nav img {
 }
 
 .page::before {
-	content: "";
+	content: '';
 	display: block;
 	height: 4.5px;
 	width: 0%;
@@ -96,7 +96,7 @@ nav img {
 }
 
 .page.current::before {
-	content: "";
+	content: '';
 	display: block;
 	height: 4.5px;
 	width: 100%;
