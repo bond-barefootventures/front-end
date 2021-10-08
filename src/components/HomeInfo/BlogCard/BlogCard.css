@@ -1,64 +1,68 @@
 .blog-card {
-   width: 300px;
-   border: 1px solid rgb(230, 220, 220);
+	width: 300px;
+	border: 1px solid rgb(230, 220, 220);
+	border-radius: 7px;
 }
 
 .img-container img {
-   width: 100%;
+	width: 100%;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 }
 
 .content-container {
-   padding: 28px 24px;
+	padding: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .post-content,
 i {
-   cursor: pointer;
+	cursor: pointer;
 }
 
 .post-content:hover {
-   color: var(--default-blue);
+	color: var(--default-blue);
 }
 
 .content-container span {
-   font-size: 12px;
-   margin-top: 10px;
+	font-size: 12px;
+	margin-top: 10px;
 }
 
 .content-container h2 {
-   margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .content-container p {
-   line-height: 1.4;
+	line-height: 1.4;
 }
 
-.svg-container {
-   padding: 0 24px;
-}
+/* .svg-container {
+	padding: 0 24px;
+} */
 
 .border {
-   border-top: 1px solid rgb(185, 180, 180);
-   display: flex;
-   justify-content: space-between;
-   height: 40px;
-   align-items: center;
+	border: none;
+	border-top: 1px solid rgb(185, 180, 180);
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
 }
 
 .left-svg {
-   display: flex;
-   align-items: flex-end;
+	display: flex;
+	align-items: flex-end;
 }
 
 .left-svg span {
-   margin-right: 5px;
+	margin-right: 5px;
 }
 
 .bi-suit-heart-fill,
 .bi-suit-heart {
-   color: rgb(221, 0, 0);
+	color: rgb(221, 0, 0);
 }
 
 .bi-chat-left-text {
-   margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }

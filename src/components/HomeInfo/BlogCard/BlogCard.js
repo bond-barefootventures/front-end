@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 
-import useToggler from "../../../hooks/useToggler"
-import "./BlogCard.css"
+import useToggler from '../../../hooks/useToggler'
+import './BlogCard.css'
 
 export default function BlogCard(props) {
 	const [isToggled, toggle] = useToggler()
@@ -12,13 +12,11 @@ export default function BlogCard(props) {
 				<img src={props.img} alt="pictures" />
 			</div>
 			<div className="content-container">
-				<p className="tiny-txt fade">{props.time}</p>
+				<p className="text-xs text-gray-600">{props.time}</p>
 				<div className="post-content">
-					<h3>{props.title}</h3>
-					<p className="text-sm">{props.content}</p>
+					<h3 className="my-4">{props.title}</h3>
+					<p className="text-sm mb-8">{props.content}</p>
 				</div>
-			</div>
-			<div className="svg-container">
 				<div className="border">
 					<div className="left-svg">
 						<i className="bi bi-chat-left-text" />
@@ -28,12 +26,14 @@ export default function BlogCard(props) {
 						<i
 							onClick={toggle}
 							className={
-								isToggled ? "bi bi-suit-heart-fill" : "bi bi-suit-heart"
+								isToggled ? 'bi bi-suit-heart-fill' : 'bi bi-suit-heart'
 							}
 						/>
 					</div>
 				</div>
 			</div>
+			{/* <div className="svg-container"> */}
+			{/* </div> */}
 		</div>
 	)
 }
