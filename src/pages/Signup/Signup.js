@@ -31,29 +31,32 @@ export default function Signup() {
 								placeholder="Confirm password"
 								required
 							/>
-							<label className="checkbox text-sm">
+							<label className="checkbox text-sm items-center flex">
 								<input
 									type="checkbox"
 									value="remember-me"
 									id="rememberMe"
 									name="rememberMe"
-									className="focus:outline-none focus:ring"
+									className="focus:outline-none focus:ring mr-1"
 								/>
-								{'  '}I accept the{' '}
-								<Link to="#" className="text-blue-400">
-									Terms of Use
-								</Link>{' '}
-								&{' '}
-								<Link to="#" className="text-blue-400">
-									Privacy Policy
-								</Link>
+								<p className="font-sans">
+									I accept the{' '}
+									<Link to="#" className="text-blue-400">
+										Terms of Use
+									</Link>{' '}
+									&{' '}
+									<Link to="#" className="text-blue-400">
+										Privacy Policy
+									</Link>
+								</p>
 							</label>
-							<label className="my-2 checkbox">
+							<label className="my-2 checkbox text-sm">
+								Already have an account?{' '}
 								<Link
 									to="/login"
-									className="text-sm text-blue-400 hover:opacity-60"
+									className="text-blue-400 hover:opacity-60"
 								>
-									Already have an account? Log in here
+									Log in here
 								</Link>
 							</label>
 							<button

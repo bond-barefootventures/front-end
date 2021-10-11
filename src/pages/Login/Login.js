@@ -25,23 +25,24 @@ export default function Login() {
 								required
 							/>
 
-							<label className="checkbox">
+							<label className="checkbox text-sm items-center flex">
 								<input
 									type="checkbox"
 									value="remember-me"
 									id="rememberMe"
 									name="rememberMe"
-									className="focus:outline-none focus:ring"
+									className="focus:outline-none focus:ring mr-1"
 								/>{' '}
 								Remember me
 							</label>
 
-							<label className="checkbox">
+							<label className="checkbox text-sm">
+								New to BOND?{' '}
 								<Link
 									to="/signup"
-									className="text-sm text-blue-400 hover:opacity-60"
+									className="text-blue-400 hover:opacity-60"
 								>
-									New to BOND? Sign up here
+									Sign up here
 								</Link>
 							</label>
 						</div>
@@ -58,7 +59,7 @@ export default function Login() {
 								className="w-full hover:opacity-90 focus:outline-none focus:ring"
 							>
 								<i className="fa fa-facebook fa-lg"></i>
-								Login in with facebook
+								Log in in with facebook
 							</a>
 							<a
 								href="#"
