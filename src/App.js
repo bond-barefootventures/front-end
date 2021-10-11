@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Navbar, Footer, SocialIcons, Popup } from './components'
 import { Home, About, Blog, Business, JobSearch, JoinUs } from './pages'
+import Login from './pages/Login/Login'
+import Signup from './pages/Signup/Signup'
 
 export default function App() {
 	const [popup, setPopup] = useState(false)
@@ -22,6 +24,9 @@ export default function App() {
 				<Route exact path="/business" component={Business} />
 				<Route exact path="/jobs" component={JobSearch} />
 				<Route exact path="/join-us" component={JoinUs} />
+				<Route exact path="/login" component={Login} />
+				<Route exact path="/signup" component={Signup} />
+
 			</Switch>
 			<Footer />
 		</Router>

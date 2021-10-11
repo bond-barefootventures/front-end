@@ -66,9 +66,12 @@ export default function Navbar() {
 			<div className="icons">
 				<div className="sign-in">
 					<i class="fa-2x fas fa-user-circle" />
-					<p>Log in</p>
+					<Link to="/login">Log in</Link>
+
 				</div>
-				<p>Language</p>
+				<div className="sign-in">
+					<Link to="/signup">Sign up</Link>
+				</div>
 			</div>
 		</nav>
 	)

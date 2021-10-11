@@ -22,9 +22,9 @@ const index = () => {
 						/>
 						<div className="flex flex-col w-auto pr-12">
 							<h3 className="uppercase">Subscribe to our newsletter</h3>
-							<p className="text-sm my-4">Never miss any job updates</p>
+							<p className="my-4 text-sm">Never miss any job updates</p>
 							<input
-								className="border-b-2 outline-none italic p-2 w-4/5 text-sm mb-6 focus:border-brand-blue"
+								className="w-4/5 p-2 mb-6 text-sm italic border-b-2 outline-none focus:border-brand-blue"
 								placeholder="Email"
 								type="text"
 							/>
