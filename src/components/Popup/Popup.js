@@ -1,15 +1,18 @@
 import React, { useState } from 'react'
+
+import useClickOutside from '../../hooks/useClickOutside'
 import './Popup.css'
 
 const index = () => {
 	const [open, setOpen] = useState(true)
+	const clickRef = useClickOutside(() => setOpen(false))
 
 	return (
 		<div
 			className="modal animate-opacity"
 			style={{ display: !open && 'none' }}
 		>
-			<div className="modal-content">
+			<div className="modal-content" ref={clickRef}>
 				<div className="modal-inner">
 					<span onClick={() => setOpen(false)} className="modal-close">
 						&times;

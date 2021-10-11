@@ -16,7 +16,7 @@ export default function App() {
 	const [popup, setPopup] = useState(false)
 
 	useEffect(() => {
-		setTimeout(() => setPopup(true), 60000)
+		setTimeout(() => setPopup(true), 30000)
 	}, [])
 
 	return (
