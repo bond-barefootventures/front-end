@@ -1,0 +1,22 @@
+.about_slider {
+  position: relative;
+  height: calc(100vh - 160px);
+  color: white;
+}
+
+.about_text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  align-items: center;
+}
+
+.about_end_text {
+  display: grid;
+  width: 60%;
+  gap: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
